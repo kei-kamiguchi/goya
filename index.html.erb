@@ -18,7 +18,7 @@
     <% end %>
 
     <form action="indicate.cgi" method="POST">
-       自家消費ではないgoyaを表示<br>
+       自家消費ではないゴーヤを表示<br>
       <input type="hidden" name="indicate" value="<%= data.join('<br>') %>"><br>
       <input type="submit" name="送信" value="確認">
     </form>
@@ -31,7 +31,7 @@
     <% end %>
 
     <form action="goya.cgi" method="POST">
-       下記のボタンを押すと、ゴーヤの大きさと売った相手の情報ページに飛びます<br><br>
+       品質の悪いゴーヤを表示<br><br>
        <!-- valueには、送りたいデータを代入する -->
        <!-- name="goya"を、情報の目印とする -->
       <input type="hidden" name="goya" value="<%= data.join('<br>') %>">
